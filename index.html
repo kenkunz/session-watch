@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Session Watch</title>
+
+    <link rel="stylesheet" href="/lib/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="/css/master.css">
+
+    <script src="/lib/jquery.js"></script>
+    <script src="/lib/jquery.cookie.js"></script>
+    <script src="/lib/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="/js/watch.js"></script>
+  </head>
+
+  <body>
+
+    <h1>Session Watch Proof-of-Concept</h1>
+
+    <p>
+      Open multiple windows or tabs, then change your session in on of them.
+    </p>
+
+    <form id="session-form">
+      <input id="session-key" name="session-key" type="text">
+      <input type="submit" value="Update Session">
+    </form>
+
+    <div id="popup" class="white-popup mfp-hide">
+      Oops &ndash; it looks like your session changed! You need to
+      <a href="/">reload</a> the page.
+    </div>
+
+  </body>
+
+</html>
